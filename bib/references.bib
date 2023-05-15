@@ -1,14 +1,235 @@
-@article{Beck2016Visual,
-  abstract = {Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.},
-  author = {Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel},
-  doi = {10.1109/TVCG.2015.2467757},
-  journal = {IEEE Transactions on Visualization and Computer Graphics},
-  keywords = {type:system, visual_analytics, sparklines, information_retrieval, clustering, literature_browser},
-  number = {01},
-  publisher = {IEEE},
-  volume = {22},
-  series = {TVCG},
-  title = {Visual Analysis and Dissemination of Scientific Literature Collections with {SurVis}},
-  url = {http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf},
-  year = {2016}
+@INPROCEEDINGS {8265226,
+  author={Bayramoglu, Neslihan and Kaakinen, Mika and Eklund, Lauri and Heikkilä, Janne},
+  booktitle={2017 IEEE International Conference on Computer Vision Workshops (ICCVW)}, 
+  title={Towards Virtual H&E Staining of Hyperspectral Lung Histology Images Using Conditional Generative Adversarial Networks}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={64-71},
+  abstract={The microscopic image of a specimen in the absence of staining appears colorless and textureless. Therefore, microscopic inspection of tissue requires chemical staining to create contrast. Hematoxylin and eosin (H&E) is the most widely used chemical staining technique in histopathology. However, such staining creates obstacles for automated image analysis systems. Due to different chemical formulations, different scanners, section thickness, and lab protocols, similar tissues can greatly differ in appearance. This huge variability is one of the main challenges in designing robust and resilient automated image analysis systems. Moreover, staining process is time consuming and its chemical effects deform structures of specimens. In this work, we develop a method to virtually stain unstained specimens. Our method utilizes dimension reduction and conditional adversarial generative networks (cGANs) which build highly non-linear mappings between input and output images. Conditional GANs ability to handle very complex functions and high dimensional data enables transforming unstained hyperspectral tissue image to their H&E equivalent which comprises highly diversified appearance. In the long term, such virtual digital H&E staining could automate some of the tasks in the diagnostic pathology workflow which could be used to speed up the sample processing time, reduce costs, prevent adverse effects of chemical stains on tissue specimens, reduce observer variability, and increase objectivity in disease diagnosis.},
+  keywords={},
+  doi={10.1109/ICCVW.2017.15},
+  ISSN={2473-9944},
+  month={Oct}
+  }
+
+@inproceedings {10.1117/12.2293249,
+author = {Erik A. Burlingame and Adam A. Margolin and Joe W. Gray and Young Hwan Chang},
+title = {{SHIFT: speedy histopathological-to-immunofluorescent translation of whole slide images using conditional generative adversarial networks}},
+volume = {10581},
+booktitle = {Medical Imaging 2018: Digital Pathology},
+editor = {John E. Tomaszewski and Metin N. Gurcan},
+organization = {International Society for Optics and Photonics},
+publisher = {SPIE},
+pages = {1058105},
+abstract = {Multiplexed imaging such as multicolor immunofluorescence staining, multiplexed immunohistochemistry (mIHC) or cyclic immunofluorescence (cycIF) enables deep assessment of cellular complexity in situ and, in conjunction with standard histology stains like hematoxylin and eosin (H and E), can help to unravel the complex molecular relationships and spatial interdependencies that undergird disease states. However, these multiplexed imaging methods are costly and can degrade both tissue quality and antigenicity with each successive cycle of staining. In addition, computationally intensive image processing such as image registration across multiple channels is required. We have developed a novel method, speedy histopathological-to-immunofluorescent translation (SHIFT) of whole slide images (WSIs) using conditional generative adversarial networks (cGANs). This approach is rooted in the assumption that specific patterns captured in IF images by stains like DAPI, pan-cytokeratin (panCK), or &alpha;-smooth muscle actin (&alpha;-SMA) are encoded in H and E images, such that a SHIFT model can learn useful feature representations or architectural patterns in the H and E stain that help generate relevant IF stain patterns. We demonstrate that the proposed method is capable of generating realistic tumor marker IF WSIs conditioned on corresponding H and E-stained WSIs with up to 94.5% accuracy in a matter of seconds. Thus, this method has the potential to not only improve our understanding of the mapping of histological and morphological profiles into protein expression profiles, but also greatly increase the efficiency of diagnostic and prognostic decision-making.},
+keywords = {deep learning, generative adversarial network, image translation, digital pathology},
+year = {2018},
+doi = {10.1117/12.2293249},
+URL = {https://doi.org/10.1117/12.2293249}
 }
+@article {10.1145/3422622,
+author = {Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+title = {Generative Adversarial Networks},
+year = {2020},
+issue_date = {November 2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {63},
+number = {11},
+issn = {0001-0782},
+url = {https://doi.org/10.1145/3422622},
+doi = {10.1145/3422622},
+abstract = {Generative adversarial networks are a kind of artificial intelligence algorithm designed to solve the generative modeling problem. The goal of a generative model is to study a collection of training examples and learn the probability distribution that generated them. Generative Adversarial Networks (GANs) are then able to generate more examples from the estimated probability distribution. Generative models based on deep learning are common, but GANs are among the most successful generative models (especially in terms of their ability to generate realistic high-resolution images). GANs have been successfully applied to a wide variety of tasks (mostly in research settings) but continue to present unique challenges and research opportunities because they are based on game theory while most other approaches to generative modeling are based on optimization.},
+journal = {Commun. ACM},
+month = {oct},
+pages = {139–144},
+numpages = {6}
+}
+@ARTICLE {2014arXiv1411.1784M,
+       author = {{Mirza}, Mehdi and {Osindero}, Simon},
+        title = "{Conditional Generative Adversarial Nets}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Computer Vision and Pattern Recognition, Statistics - Machine Learning},
+         year = 2014,
+        month = nov,
+          eid = {arXiv:1411.1784},
+        pages = {arXiv:1411.1784},
+     abstract = "{Generative Adversarial Nets [8] were recently introduced as a novel way
+        to train generative models. In this work we introduce the
+        conditional version of generative adversarial nets, which can be
+        constructed by simply feeding the data, y, we wish to condition
+        on to both the generator and discriminator. We show that this
+        model can generate MNIST digits conditioned on class labels. We
+        also illustrate how this model could be used to learn a multi-
+        modal model, and provide preliminary examples of an application
+        to image tagging in which we demonstrate how this approach can
+        generate descriptive tags which are not part of training labels.}",
+          doi = {10.48550/arXiv.1411.1784},
+archivePrefix = {arXiv},
+       eprint = {1411.1784},
+ primaryClass = {cs.LG},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2014arXiv1411.1784M},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{4632221,
+doi:10.1073/pnas.1919569117,
+author = {Yoav N. Nygate  and Mattan Levi  and Simcha K. Mirsky  and Nir A. Turko  and Moran Rubin  and Itay Barnea  and Gili Dardikman-Yoffe  and Miki Haifler  and Alon Shalev  and Natan T. Shaked },
+title = {Holographic virtual staining of individual biological cells},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {117},
+number = {17},
+pages = {9223-9231},
+year = {2020},
+doi = {10.1073/pnas.1919569117},
+URL = {https://www.pnas.org/doi/abs/10.1073/pnas.1919569117},
+eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.1919569117},
+abstract = {Many medical and biological protocols for analyzing individual biological cells involve morphological evaluation based on cell staining, designed to enhance imaging contrast and enable clinicians and biologists to differentiate between various cell organelles. However, cell staining is not always allowed in certain medical procedures. In other cases, staining may be time-consuming or expensive to implement. Staining protocols may be operator-sensitive, and hence may lead to varying analytical results, as well as cause artificial imaging artifacts or false heterogeneity. We present a deep-learning approach, called HoloStain, which converts images of isolated biological cells acquired without staining by holographic microscopy to their virtually stained images. We demonstrate this approach for human sperm cells, as there is a well-established protocol and global standardization for characterizing the morphology of stained human sperm cells for fertility evaluation, but, on the other hand, staining might be cytotoxic and thus is not allowed during human in vitro fertilization (IVF). After a training process, the deep neural network can take images of unseen sperm cells retrieved from holograms acquired without staining and convert them to their stainlike images. We obtained a fivefold recall improvement in the analysis results, demonstrating the advantage of using virtual staining for sperm cell analysis. With the introduction of simple holographic imaging methods in clinical settings, the proposed method has a great potential to become a common practice in human IVF procedures, as well as to significantly simplify and radically change other cell analyses and techniques such as imaging flow cytometry.}
+}
+
+@ARTICLE{2019LSA.....8...23R,
+       author = {{Rivenson}, Yair and {Liu}, Tairan and {Wei}, Zhensong and {Zhang}, Yibo and {de Haan}, Kevin and {Ozcan}, Aydogan},
+        title = "{PhaseStain: the digital staining of label-free quantitative phase microscopy images using deep learning}",
+      journal = {Light: Science \& Applications},
+     keywords = {Electrical Engineering and Systems Science - Image and Video Processing, Computer Science - Computer Vision and Pattern Recognition, Physics - Medical Physics, 68T01, 68T05, 68U10, 62M45, 78M32, 92C50, 92C55, 94A08, I.2, I.2.1, I.2.6, I.2.10, I.3, I.3.3, I.4.3, I.4.4, I.4.9, J.3},
+         year = 2019,
+        month = feb,
+       volume = {8},
+       number = {1},
+          eid = {23},
+        pages = {23},
+     abstract = "{Using a deep neural network, we demonstrate a digital staining
+        technique, which we term PhaseStain, to transform the
+        quantitative phase images (QPI) of label-free tissue sections
+        into images that are equivalent to the brightfield microscopy
+        images of the same samples that are histologically stained.
+        Through pairs of image data (QPI and the corresponding
+        brightfield images, acquired after staining), we train a
+        generative adversarial network and demonstrate the effectiveness
+        of this virtual-staining approach using sections of human skin,
+        kidney, and liver tissue, matching the brightfield microscopy
+        images of the same samples stained with Hematoxylin and Eosin,
+        Jones' stain, and Masson's trichrome stain, respectively. This
+        digital-staining framework may further strengthen various uses
+        of label-free QPI techniques in pathology applications and
+        biomedical research in general, by eliminating the need for
+        histological staining, reducing sample preparation related costs
+        and saving time. Our results provide a powerful example of some
+        of the unique opportunities created by data-driven image
+        transformations enabled by deep learning.}",
+          doi = {10.1038/s41377-019-0129-y},
+archivePrefix = {arXiv},
+       eprint = {1807.07701},
+ primaryClass = {eess.IV},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2019LSA.....8...23R},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{7759152,
+author={Yair,Rivenson and Wang,Hongda and Zhensong,Wei and de,Haan K. and Zhang,Yibo and Wu,Yichen and Günaydın Harun and Zuckerman,Jonathan E. and Chong,Thomas and Sisk,Anthony E. and Westbrook,Lindsey M. and Dean,Wallace W. and Aydogan,Ozcan},
+year={2019},
+month={06},
+title={Virtual histological staining of unlabelled tissue-autofluorescence images via deep learning},
+journal={Nature Biomedical Engineering},
+volume={3},
+number={6},
+pages={466-477},
+note={Copyright - © The Author(s), under exclusive licence to Springer Nature Limited 2019; Last updated - 2020-08-31},
+abstract={The histological analysis of tissue samples, widely used for disease diagnosis, involves lengthy and laborious tissue preparation. Here, we show that a convolutional neural network trained using a generative adversarial-network model can transform wide-field autofluorescence images of unlabelled tissue sections into images that are equivalent to the bright-field images of histologically stained versions of the same samples. A blind comparison, by board-certified pathologists, of this virtual staining method and standard histological staining using microscopic images of human tissue sections of the salivary gland, thyroid, kidney, liver and lung, and involving different types of stain, showed no major discordances. The virtual-staining method bypasses the typically labour-intensive and costly histological staining procedures, and could be used as a blueprint for the virtual staining of tissue images acquired with other label-free imaging modalities.Deep learning can be used to virtually stain autofluorescence images of unlabelled tissue sections, generating images that are equivalent to the histologically stained versions.},
+keywords={Medical Sciences; Human tissues; Deep learning; Thyroid; Salivary gland; Artificial neural networks; Equivalence; Medical imaging; Staining; Image acquisition; Machine learning; Salivary glands; Neural networks; Stains & staining},
+language={English},
+url={http://nottingham.idm.oclc.org/login?url=https://www.proquest.com/scholarly-journals/virtual-histological-staining-unlabelled-tissue/docview/2389675505/se-2}
+}
+
+@INPROCEEDINGS{8759152,
+  author={Shaban, M. Tarek and Baur, Christoph and Navab, Nassir and Albarqouni, Shadi},
+  booktitle={2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019)}, 
+  title={Staingan: Stain Style Transfer for Digital Histological Images}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={953-956},
+  abstract={Digitized Histological diagnosis is in increasing demand. However, color variations due to various factors are imposing obstacles to the diagnosis process. The problem of stain color variations is a well-defined problem with many proposed solutions. Most of these solutions are highly dependent on a reference template slide. We propose a deep-learning solution inspired by CycleGANs that is trained end-to-end, eliminating the need for an expert to pick a representative reference slide. Our approach showed superior results quantitatively and qualitatively against the state of the art methods (10% improvement visually using SSIM). We further validated our method on a clinical use-case, namely Breast Cancer tumor classification, showing a 12% increase in AUC. The code is made publicly available 1.},
+  keywords={},
+  doi={10.1109/ISBI.2019.8759152},
+  ISSN={1945-8452},
+  month={April}
+  }
+@ARTICLE{2019arXiv190104059X,
+       author = {{Xu}, Zhaoyang and {Huang}, Xingru and {Fern{\'a}ndez Moro}, Carlos and {Boz{\'o}ky}, B{\'e}la and {Zhang}, Qianni},
+        title = "{GAN-based Virtual Re-Staining: A Promising Solution for Whole Slide Image Analysis}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Computer Vision and Pattern Recognition},
+         year = 2019,
+        month = jan,
+          eid = {arXiv:1901.04059},
+        pages = {arXiv:1901.04059},
+     abstract = "{Histopathological cancer diagnosis is based on visual examination of
+        stained tissue slides. Hematoxylin and eosin (Hamp;E) is a
+        standard stain routinely employed worldwide. It is easy to
+        acquire and cost effective, but cells and tissue components show
+        low-contrast with varying tones of dark blue and pink, which
+        makes difficult visual assessments, digital image analysis, and
+        quantifications. These limitations can be overcome by IHC
+        staining of target proteins of the tissue slide. IHC provides a
+        selective, high-contrast imaging of cells and tissue components,
+        but their use is largely limited by a significantly more complex
+        laboratory processing and high cost. We proposed a conditional
+        CycleGAN (cCGAN) network to transform the Hamp;E stained images
+        into IHC stained images, facilitating virtual IHC staining on
+        the same slide. This data-driven method requires only a limited
+        amount of labelled data but will generate pixel level
+        segmentation results. The proposed cCGAN model improves the
+        original network \textbackslashcite\{zhu\_unpaired\_2017\} by
+        adding category conditions and introducing two structural loss
+        functions, which realize a multi-subdomain translation and
+        improve the translation accuracy as well. \% need to give
+        reasons here. Experiments demonstrate that the proposed model
+        outperforms the original method in unpaired image translation
+        with multi-subdomains. We also explore the potential of unpaired
+        images to image translation method applied on other histology
+        images related tasks with different staining techniques.}",
+          doi = {10.48550/arXiv.1901.04059},
+archivePrefix = {arXiv},
+       eprint = {1901.04059},
+ primaryClass = {cs.CV},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2019arXiv190104059X},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2017arXiv170310593Z,
+       author = {{Zhu}, Jun-Yan and {Park}, Taesung and {Isola}, Phillip and {Efros}, Alexei A.},
+        title = "{Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Computer Vision and Pattern Recognition},
+         year = 2017,
+        month = mar,
+          eid = {arXiv:1703.10593},
+        pages = {arXiv:1703.10593},
+     abstract = "{Image-to-image translation is a class of vision and graphics problems
+        where the goal is to learn the mapping between an input image
+        and an output image using a training set of aligned image pairs.
+        However, for many tasks, paired training data will not be
+        available. We present an approach for learning to translate an
+        image from a source domain $X$ to a target domain $Y$ in the
+        absence of paired examples. Our goal is to learn a mapping $G: X
+        \rightarrow Y$ such that the distribution of images from $G(X)$
+        is indistinguishable from the distribution $Y$ using an
+        adversarial loss. Because this mapping is highly under-
+        constrained, we couple it with an inverse mapping $F: Y
+        \rightarrow X$ and introduce a cycle consistency loss to push
+        $F(G(X)) \approx X$ (and vice versa). Qualitative results are
+        presented on several tasks where paired training data does not
+        exist, including collection style transfer, object
+        transfiguration, season transfer, photo enhancement, etc.
+        Quantitative comparisons against several prior methods
+        demonstrate the superiority of our approach.}",
+          doi = {10.48550/arXiv.1703.10593},
+archivePrefix = {arXiv},
+       eprint = {1703.10593},
+ primaryClass = {cs.CV},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2017arXiv170310593Z},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
